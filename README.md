@@ -29,20 +29,20 @@ mkdir test
 ## Permissions
 
 -   Create test directory and block access for all to it:
-mkdir khmaruk
-chmod 000 khmaruk
+        mkdir khmaruk
+        chmod 000 khmaruk
 
 
 -   Try to remove that directory:
-rm -rf khmaruk 
-I could not open the folder, but I was able to delete it.
+        rm -rf khmaruk 
+        I could not open the folder, but I was able to delete it.
 
 
 -    Create simple script which prints current date. Try to execute it:
-vim nowdate.sh
-Let's write command - date
-Let's add execution rights - chmod +x nowdate.sh
-Run the script - ./nowdate.sh
+        vim nowdate.sh
+        Let's write command - date
+        Let's add execution rights - chmod +x nowdate.sh
+        Run the script - ./nowdate.sh
 
 
 ## Log checking
@@ -56,8 +56,8 @@ Run the script - ./nowdate.sh
 -  Hom many uniq IP addresses accessed the website? - less test.txt | cut -d' ' -f1 | uniq | wc -l
 
 
-!!!!!!!!!!!IN PROCESS!!!!!!!!!!!
-Final result may vary.
+        !!!!!!!!!!!IN PROCESS!!!!!!!!!!!
+        Final result may vary.
 
 -  IP address with most requests - less test.txt | cut -d' ' -f1 | sort -t " " -k 1 | uniq -c
 
@@ -66,9 +66,9 @@ Final result may vary.
 
 
 -  Which IP addresses received 403 error?:
-less test.txt | grep 403 | cut -d' ' -f1 | sort  | uniq -c
-or
-less test.txt | grep 403
+        less test.txt | grep 403 | cut -d' ' -f1 | sort  | uniq -c
+        or
+        less test.txt | grep 403
 
 
 - Task with * . Write script to show which pages Google checked from the website - 
