@@ -1,9 +1,9 @@
 ##  Basic work with files
 
-- Create directory test1 - mkdir test1
+- Create directory test1
 
 ```console
-mkdir test
+mkdir test1
 ```
 
 - Create file test1.txt inside the test1 directory
@@ -106,8 +106,8 @@ tail -3 file.txt
 less test.txt | cut -d' ' -f1 | uniq | wc -l
 ```
 
--        !!!!!!!!!!!IN PROCESS!!!!!!!!!!!
--        Final result may vary.
+# !!!!!!!!!!!IN PROCESS!!!!!!!!!!!
+# Final result may vary.
 
 -  IP address with most requests - 
 
