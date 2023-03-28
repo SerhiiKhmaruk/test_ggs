@@ -29,20 +29,20 @@ mkdir test
 ## Permissions
 
 -   Create test directory and block access for all to it:
-        mkdir khmaruk
-        chmod 000 khmaruk
+-        mkdir khmaruk
+-        chmod 000 khmaruk
 
 
 -   Try to remove that directory:
-        rm -rf khmaruk 
-        I could not open the folder, but I was able to delete it.
+-        rm -rf khmaruk 
+-        I could not open the folder, but I was able to delete it.
 
 
 -    Create simple script which prints current date. Try to execute it:
-        vim nowdate.sh
-        Let's write command - date
-        Let's add execution rights - chmod +x nowdate.sh
-        Run the script - ./nowdate.sh
+-        vim nowdate.sh
+-        Let's write command - date
+-        Let's add execution rights - chmod +x nowdate.sh
+-        Run the script - ./nowdate.sh
 
 
 ## Log checking
